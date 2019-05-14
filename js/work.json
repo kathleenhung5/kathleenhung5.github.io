@@ -1,0 +1,42 @@
+{
+    "gd":[
+        {"name":"1. Fab.com Magazine Ad",
+         "img":["img/fab.jpg","img/fab2.jpg"],
+         "des":"The advertisement and the table tent were designed to promote the website fab.com and what it sells."},
+        
+        {"name":"2. Bus Stop Posters for BMO Student Mastercard",
+         "img":["img/bank-15.jpg","img/bank-4.jpg"],
+         "des":"A bus stop posters that promote a student credit card from The Bank of Montreal, presented in the style of stained glass."},
+        
+        {"name":"3. Bloohoo Music Festival",
+         "img":["img/bloohoo2.jpg","img/bloohoo3.jpg"],
+         "des":"Bloohoo is a Jazz and Blues music festival. The logo and ticket is designed in the branding process."}
+    ],
+    
+    "mg":[
+        {"name":"1. A Regular Day of Johnson And His Cat",
+         "img":"img/cat1.png",
+         "des":"This is a short motion graphic video that shows a regular day of a cat and it's owner. It is created in After Effects",
+         "link":"catvid.html"},
+        {"name":"2. Lollipop",
+         "img":"img/lollipop1.png",
+         "des":"A motion graphic project about Lollipop Day, created in After Effects",
+         "link":"lolvid.html"}
+    ],
+    
+    "il":[
+        {"name":"1. Kevin, Me and Pretzel",
+         "img": "img/kevin.png",
+         "des":"Personal illustration project created in memory of my first dog Kevin. Pretzel is one of my favorite snacks. In case you're wondering :D "},
+        {"name":"2. The Little Mermaid",
+         "img":"img/mermaids.jpg",
+         "des":"A personal illustration project. I've always found mermaids beautiful and also a little mysterious at the same time."}
+    ],
+    
+    "wa":[
+        {"name": "Sea Amigos",
+         "img":"img/sea-amigos2.png",
+         "des":"This is a web app for the smartphones that educates children (5-9 year-old) about sea animals.",
+         "link":"http://sea-amigos.herokuapp.com/"}
+    ]
+}

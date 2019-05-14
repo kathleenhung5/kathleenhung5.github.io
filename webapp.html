@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <meta http-equiv="X-UA-Compatible" content = "ie=edge">
+        <title> Kathleen Portfolio | Work - Web App </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <link href="css/main.css" rel="stylesheet"/>
+    </head>
+    
+    <body>
+    <div class="wrapper">
+        <header>
+            <div class="name">
+                <button>KathleenHung</button>
+            </div>
+            <div class="page-menu">
+                <button onclick="toHome()">Home</button>
+                <button style="color:#FFBF4F" onclick="toWork()">Work</button>
+                <button onclick="toContact()">Contact</button>
+                <button onclick="toAbout()">About</button>
+            </div>
+        </header>
+        
+        <section class="wa-intro">
+            <div class="yellow-box box-right"></div>
+            <h1>Work</h1> 
+        </section>
+        
+        <div class="work-menu">
+            <h2 onclick="toGD()">Graphic Design</h2>
+            <h2 onclick="toMG()">Motion Graphic</h2>
+            <h2 onclick="toIL()">Illustration</h2>
+            <h2 style="color:#FFBF4F">Web App</h2>
+        </div>
+        
+        <section class="wa">
+<!--
+           <div class="work-piece">
+                <h3> name </h3>
+                <img />   
+                <p> des </p>
+                <a /> 
+            </div>
+-->
+        </section>
+        
+       
+        
+        
+    </div>  
+        <footer>
+            <h3>Get in touch</h3>
+            <div class="footer-contact">
+                <p>kathleen@gmail.com</p>
+                <div>
+                    <img onclick="toLinkedIn()" src="img/linkedin-icon.svg" alt="linkedin icon"/>
+                    <img onclick="toIns()" src="img/instagram-icon.svg" alt="instagram icon"/>
+                </div>
+                <div class="footer-menu">
+                    <button onclick="toHome()">Home</button>
+                    <button onclick="toWork()">Work</button>
+                    <button onclick="toContact()">Contact</button>
+                    <button onclick="toAbout()">About</button>
+                </div>
+            </div>
+        </footer>
+        
+<script src="js/myjs.js"></script>
+    </body>
+</html>

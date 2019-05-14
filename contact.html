@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <meta http-equiv="X-UA-Compatible" content = "ie=edge">
+        <title> Kathleen Portfolio | Contact </title>
+        <link href="css/main.css" rel="stylesheet"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+<!-- Firebase -->
+        <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase.js"></script>
+        <script>
+          // Initialize Firebase
+          var config = {
+            apiKey: "AIzaSyDTWAmC0Ju6bBtWmfH7kXnHzduoq-94qIA",
+            authDomain: "bcit-web-dev-portfolio.firebaseapp.com",
+            databaseURL: "https://bcit-web-dev-portfolio.firebaseio.com",
+            projectId: "bcit-web-dev-portfolio",
+            storageBucket: "bcit-web-dev-portfolio.appspot.com",
+            messagingSenderId: "30185637384"
+          };
+          firebase.initializeApp(config);
+            
+        var db = firebase.firestore();
+        </script>
+        
+    </head>
+    
+    <body>
+    <div class="wrapper">
+        <header>
+            <div class="name">
+                <button>KathleenHung</button>
+            </div>
+            <div class="page-menu">
+                <button onclick="toHome()">Home</button>
+                <button style="color:#FFBF4F" onclick="toWork()" >Work</button>
+                <button onclick="toContact()">Contact</button>
+                <button onclick="toAbout()">About</button>
+            </div>
+        </header>
+        
+        <section class="contact-intro">
+            <div class="yellow-box box-right"></div>
+            <div class="contact-intro-wrap">
+                <h1>Get in touch</h1>
+                <div class="contact-intro-text">
+                    <p>Feel free to email me at <br> <i>kathleen@gmail.com</i><br>or connect with me on linkedIn</p>
+                    <img src="img/linkedin-icon.svg" alt="linkedin icon" onclick="toIns()"/>
+                </div>
+            </div>
+        </section>
+        
+        <section class="contact-form">
+            <h3>Leave a Message</h3>
+            
+            <form method="post" action="#">
+            <label for="name">Name*:</label><br>
+            <input id="name" name="name" type="text" required/><br>
+                
+            <label for="job">You are a</label><br>
+            <select id="job" size="3" multiple>
+                <option value="Designer">Designer</option>    
+                <option value="Developer">Developer</option>    
+                <option value="Student">Student</option>    
+                <option value="Employer">Employer</option>    
+                <option value="Instrutor">Instructor</option>    
+                <option value="Freelancer">Freelancer</option>    
+            </select><br>
+                
+            <label for="msg">Your message*:</label><br>
+            <textarea id="msg" rows="8" required></textarea>
+             
+            <div>
+            <button class="button" type="button" onclick="submitMsg()">Send to Kathleen</button>
+            </div>
+            </form>
+        
+        
+        </section>
+    </div>  
+        <footer>
+            <h3>Get in touch</h3>
+            <div class="footer-contact">
+                <p>kathleen@gmail.com</p>
+                <div>
+                    <img onclick="toLinkedIn()" src="img/linkedin-icon.svg" alt="linkedin icon"/>
+                    <img onclick="toIns()" src="img/instagram-icon.svg" alt="instagram icon"/>
+                </div>
+                <div class="footer-menu">
+                    <button onclick="toHome()">Home</button>
+                    <button onclick="toWork()" >Work</button>
+                    <button onclick="toContact()">Contact</button>
+                    <button onclick="toAbout()">About</button>
+                </div>
+            </div>
+        </footer>
+<script src="js/myjs.js"></script>
+    </body>
+</html>

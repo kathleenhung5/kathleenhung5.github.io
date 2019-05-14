@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <meta http-equiv="X-UA-Compatible" content = "ie=edge">
+        <title> Kathleen Portfolio | Home </title>
+        <link href="css/main.css" rel="stylesheet"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    
+    <body>
+    <div class="wrapper">
+        <header>
+            <div class="name">
+                <button onclick="toHome()">KathleenHung</button>
+            </div>
+            <div class="page-menu">
+                <button onclick="toHome()">Home</button>
+                <button style="color:#FFBF4F; font-weight: 400;" onclick="toWork()" >Work</button>
+                <button onclick="toContact()">Contact</button>
+                <button onclick="toAbout()">About</button>
+            </div>
+        </header>
+        
+        <section class="home-intro">
+            <div class="kathleen-photo">
+                <img src="img/kathleen-photo.svg" alt="graphic illustration of kathleen"/>
+            </div>
+            <div class="intro-text">
+                <h2>Hi there,</h2>
+                <p>welcome to my portfolio! My name is Kathleen Hung. I'm a graphic designer &amp; front-end developer.</p>
+                 <div class="home-about-me-button">
+                <button class="button" onclick="toAbout()">About me</button>
+            </div>
+            </div>
+           
+        </section>
+        
+        <section class="home-work-section">
+            <div class="yellow-box box-right">
+            </div>
+            <div class="home-work-wrap">
+                <div class="home-work-title">
+                    <h1>Works</h1>
+                </div>
+                <div class="home-work-cat">
+                    <button class="work-cat" onclick="toGD()">Graphic Design <span>></span></button>
+                    <button class="work-cat" onclick="toMG()">Motion Graphics <span>></span></button>
+                    <button class="work-cat" onclick="toIL()">Illustration  <span>></span></button>
+                    <button class="work-cat" onclick="toWA()">Web App <span>></span></button>
+                </div>
+                <div class="home-see-all-button">
+                    <button class="button" onclick="toWork()">See all works</button>
+                </div>
+            </div>
+        </section>
+</div>     
+        <footer>
+            <h3>Get in touch</h3>
+            <div class="footer-contact">
+                <p>kathleen@gmail.com</p>
+                <div>
+                    <img onclick="toLinkedIn()" src="img/linkedin-icon.svg" alt="linkedin icon"/>
+                    <img onclick="toIns()" src="img/instagram-icon.svg" alt="instagram icon"/>
+                </div>
+                <div class="footer-menu">
+                    <button onclick="toHome()">Home</button>
+                    <button onclick="toWork()" >Work</button>
+                    <button onclick="toContact()">Contact</button>
+                    <button onclick="toAbout()">About</button>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/myjs.js"></script>
+    </body>
+</html>

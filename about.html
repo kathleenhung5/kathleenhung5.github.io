@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <meta http-equiv="X-UA-Compatible" content = "ie=edge">
+        <title> Kathleen Portfolio | About </title>
+        <link href="css/main.css" rel="stylesheet"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    
+    <body>
+    <div class="wrapper">
+        <header>
+            <div class="name">
+                <button>KathleenHung</button>
+            </div>
+            <div class="page-menu">
+                <button onclick="toHome()">Home</button>
+                <button style="color:#FFBF4F" onclick="toWork()" >Work</button>
+                <button onclick="toContact()">Contact</button>
+                <button>About</button>
+            </div>
+        </header>
+        
+        <section class="about-intro">
+            <div class="yellow-box box-left"></div>
+            <div class="about-intro-wrap">
+                <h1>About me</h1> 
+                <img src="img/kathleen-photo.svg" alt="kathleen"/>
+            </div>
+        </section>
+        
+        <section class="about-me">
+            <div class="about-ed">
+                <h3>Education</h3>
+                <p>I am a graphic designer and front-end developer. I am currently studying Digital Design and Development at BCIT and looking forward to building a career in the same industry field. </p>
+                <p>My previous education was German Linguistics (2013-2017). I received the award "Graduate Thesis of Excellence" from Tongji University for my thesis on Chinese learners' false pronunciation of German vowels. I completed BCIT's Graphic Design Program in 2018 with distinction.</p>
+            </div>
+            <div class="about-ex">
+                <h3>Experience</h3>
+                <p>I work as an administrative assistant at Blanche Macdonald Centre. My responsibilities include booking hair appointments with stylists, helping students with administrative issues, arranging appointments with prospective students and handling money. In 2017, I worked at 81Bakery in Shanghai as a barista/cashier, at which time I gained customer service skills and skills handling money. </p>
+                <p>I am passionate about what I'm studying and I thrive rapidly growing personally and professionally working in innovative organizations.</p>
+            </div>
+            
+            <div class="about-me-button">
+            <button class="button" onclick="toWork()">See work</button>
+            </div>
+        </section>
+    </div>  
+        <footer>
+            <h3>Get in touch</h3>
+            <div class="footer-contact">
+                <p>kathleen@gmail.com</p>
+                <div>
+                    <img onclick="toLinkedIn()" src="img/linkedin-icon.svg" alt="linkedin icon"/>
+                    <img onclick="toIns()" src="img/instagram-icon.svg" alt="instagram icon"/>
+                </div>
+                <div class="footer-menu">
+                    <button onclick="toHome()">Home</button>
+                    <button onclick="toWork()" >Work</button>
+                    <button onclick="toContact()">Contact</button>
+                    <button onclick="toAbout()">About</button>
+                </div>
+            </div>
+        </footer>
+        
+<script src="js/myjs.js"></script>
+    </body>
+</html>

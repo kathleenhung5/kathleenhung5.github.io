@@ -1,0 +1,922 @@
+/*#FFBF4F*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400');
+
+
+
+/*--- Base ----*/
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: 100%;
+    height:auto;
+}
+
+button {
+    border: none;
+    background-color: rgba(255,255,255,0);
+}
+
+p {
+    font-weight: 300;
+    margin: 0px;
+}
+
+h1, h2, h3 {
+    margin: 0px;
+    font-weight: 400;
+}
+
+@keyframes yellowbox-in {
+    0%{border-bottom: 2px solid #fff;}
+    100%{border-bottom: 2px solid #ffbf4f;}
+}
+
+
+/* ---- Mobile ----- */
+
+
+
+.wrapper {
+    padding: 15px 15px
+}
+
+p {
+    font-size: 1.1em;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    margin: 0px; 
+}
+
+.button {
+    font-size: 1.8em;
+    font-weight: 300;
+    border: 3px solid #FFBF4F;
+    padding: 7px 20px;
+}
+
+header {
+    margin-bottom: 60px;
+}
+
+footer {
+    background-color: #ffbf4f;
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding: 30px 0px;
+}
+
+footer h3 {
+    font-size: 2.5em;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+footer img {
+    width: 40px;
+    margin: 20px 7px;
+}
+
+.footer-menu {
+    margin: 10px 0px;
+}
+
+.footer-menu button{
+    background-color: #ffbf4f;
+    color: white;
+    font-size: 1.3em;
+    font-weight: 300;
+    margin: 5px auto;
+}
+
+/*---- Home ----*/
+.name button {
+    font-size: 2em;
+    font-weight: 400;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+
+.page-menu button {
+    font-size: 1.4em;
+    font-weight: 300; 
+    padding: 0px 5px;
+}
+
+.home-intro {
+  margin-bottom: 100px;   
+}
+
+.kathleen-photo {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.intro-text h2 {
+    margin-bottom: 0px;
+    font-size: 3em;
+    text-align: center;
+}
+
+.intro-text p {
+    margin: 15px 0px;
+}
+
+.home-about-me-button, .home-see-all-button {
+    text-align: center;
+    margin-top:  30px;
+}
+
+.home-work-section {
+    margin-bottom: 100px;
+}
+
+.home-work-cat {
+    margin-top: 15px;
+}
+
+.work-cat {
+    display: block;
+    margin: 5px auto;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+.work-cat span {
+    color: #ffbf4f;
+}
+
+/*--- contact ---*/
+.contact-intro {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.contact-intro h1 {
+    margin-bottom: 20px;
+}
+
+.contact-intro p {
+    line-height: 1.8em;
+}
+
+.contact-intro p i {
+    text-decoration-line: underline;
+    font-weight: 400;
+    color: #ffbf4f;
+}
+
+.contact-intro img {
+    width: 70px;
+    margin: 7px auto;
+}
+
+.contact-form {
+    margin-bottom: 80px;
+}
+
+
+
+.contact-form h3 {
+    font-size: 2.4em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-form form {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.contact-form label  {
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+.contact-form option {
+    font-size: 1em;
+    font-weight: 300;
+    text-align: center;
+}
+
+.contact-form input, .contact-form select, .contact-form textarea {
+    width: calc( 100% - 10px);
+    font-size: 1.3em;
+    font-weight: 300;
+    margin: 10px 0px;
+    border: 3px solid #ffbf4f;
+    transform: translate(-3px,0px);
+    padding: 5px;
+}
+
+.contact-form select {
+    width: calc( 100% + 6px);
+}
+
+.contact-form div{
+    text-align: center;
+    margin: 30px 0px;
+}
+
+/*--- about ----*/
+.about-intro {
+    text-align: center;
+}
+
+.about-intro img {
+    width: 80%;
+    margin-top: 30px;
+}
+
+.about-me h3 {
+    font-size: 2em;
+    margin: 30px 0px 10px 0px;
+}
+
+.about-me p {
+    margin-bottom: 10px;
+}
+
+.about-me-button {
+    margin: 50px 0px 90px 0px; 
+    text-align: center;
+}
+
+/*--- work ---*/
+.work-sec {
+    margin: 30px 0px;
+    text-align: center;
+}
+
+.work-sec h3 {
+    font-size: 1.5em;
+    font-weight: 300;
+    margin: 10px 0px;
+}
+
+.work-sec span {
+    color: #ffbf4f;
+    font-weight: 400;
+}
+
+.work-thumb {
+    width: 100%;
+    height: 300px;
+}
+
+.work-sec div {
+    background-position: center;
+    background-size: cover;
+    margin: 3px 0px;
+    position: relative;
+}
+
+.work-thumb a {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 3;
+}
+
+#fab-thumb {
+    background-image: url(../img/fab.jpg);
+}
+
+#bank-thumb {
+    background-image: url(../img/bank-15.jpg);
+}
+
+#bloohoo-thumb {
+    background-image: url(../img/bloohoo3.jpg);
+}
+
+#cat-thumb {
+    background-image: url(../img/cat1.png);
+
+}
+
+#loli-thumb {
+    background-image: url(../img/lollipop.png);
+}
+
+#mermaid-thumb {
+    background-image: url(../img/Mermaid-01.jpg);
+}
+
+#kevin-thumb {
+    background-image: url(../img/kevin.png);
+}
+
+#seaamigos-thumb {
+    background-image: url(../img/sea-amigos3.png);
+}
+
+/* -- work categories --- */
+.work-menu {
+    margin-bottom: 30px;
+}
+
+.work-menu h2{
+    font-size: 1.5em;
+    font-weight: 300;
+    text-align: center;
+}
+
+.work-piece {
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.work-piece img{
+   max-width: 80%;
+    max-height: 250px;
+    margin-bottom: 10px;
+}
+
+.work-piece h3 {
+    font-size: 1.4em;
+    margin: 20px;
+}
+
+.work-piece p {
+    margin-top: 10px;
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.work-piece a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    display: block;
+    margin-top: 20px;
+}
+
+.mg img {
+    max-width: 90%;
+}
+
+.il img {
+    max-width: 95%;
+    max-height: 350px;
+}
+
+.wa img {
+    max-height: 400px;
+}
+
+
+/*-- video -- */
+.vid iframe {
+    width: 100%;
+    height: auto;
+}
+
+
+/*----- Tablet -------*/
+@media screen and (min-width:550px){
+    
+    p {
+        font-size: 1em;
+        line-height: 1.4em;
+    }
+
+    h1 {
+        font-size: 4.5em;
+        text-align: center;
+        margin: 0px;
+        font-weight: 300;
+    }
+    
+    .wrapper {
+    padding: 20px 15px;
+}
+
+   
+/*--home--*/
+    .name, .page-menu {
+        display: inline-block;
+    }
+    
+    .page-menu {
+        float: right;
+        margin-top: 9px;
+    }
+    
+    .kathleen-photo {
+    grid-area: kath;
+    }
+    
+    .intro-text {
+        grid-area: introtext;
+        margin-left: 20px;
+        align-self: center;
+    }
+    
+    .intro-text h2 {
+        font-weight: 400;
+        font-size: 2em;
+        text-align: left;
+    }
+    
+    .intro-text p {
+        margin-top: 0px;
+    }
+    
+    .home-intro {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "introtext kath";
+    }
+    
+    .home-work-section {
+        position: relative;
+    }
+    
+    .yellow-box {
+        z-index: -1;
+        position: absolute;
+        border: 5px solid #ffbf4f;
+        top: 20px;
+        width:80%;
+        height:100%;
+    }
+    
+    .box-right {
+        right: 5%;
+    }
+    
+    .box-left {
+        left: 5%;
+    }
+    
+    .home-work-title {
+        grid-area: worktitle;
+        padding: 40px 20px;
+    }
+    
+    .home-work-title h1 {
+        text-align: left;
+    }
+    
+    .home-work-cat {
+        grid-area: homeworkcat;
+        padding: 50px 20px;
+    }
+    
+    .home-work-cat button {
+        margin: 10px 0px;
+    }
+    
+    .home-see-all-button {
+        grid-area: homeseeall;
+       
+    }
+    
+    .home-work-wrap {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "worktitle homeworkcat"
+            "homeseeall homeworkcat"
+    }
+    
+    .home-about-me-button, .home-see-all-button {
+        text-align: left;
+    }
+    
+    .home-see-all-button {
+        transform: translate(20px, -40px);
+    }
+    
+    /*--about--*/
+    .about-intro {
+        position: relative;
+        margin-bottom: 70px;
+    }
+    
+    .about-intro h1 {
+        grid-area: aboutme;
+        align-self: center;
+        text-align: right;
+        margin-right: 40px;
+    }
+    
+    .about-intro img {
+        grid-area: aboutmephoto;
+    }
+    
+    .about-intro-wrap {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "aboutmephoto aboutme";
+    }
+
+    .about-intro img {
+        width: 90%;
+        margin: 40px 0px 0px 25px;
+        z-index: -3;
+    }
+
+    .about-me h3 {
+        font-size: 2.3em;
+        margin: 30px 0px 10px 0px;
+        font-weight: 300;
+    }
+
+/*--- contact ---*/
+    .contact-intro {
+        text-align: left;
+        position: relative;
+       
+    }
+
+    .contact-intro-wrap {
+         display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "contacttitle contacttitle"
+            ". contactintrotext"; 
+    }
+    
+    .contact-intro h1 {
+        grid-area: contacttitle;
+        text-align: left;
+        margin: 30px 0px 0px 20px;
+    }
+
+    .contact-intro-text {
+        grid-area: contactintrotext;
+    }
+
+    .contact-form {
+        max-width: 550px;
+        margin: 0 auto;
+    }
+    
+    .contact-form h3 {
+        font-size: 2.5em;
+        font-weight: 300;
+    }
+
+    .contact-form label  {
+        font-size: 1.3em;
+        font-weight: 300;
+    }
+
+    .contact-form option {
+        font-size: 1em;
+    }
+
+    .contact-form input, .contact-form select, .contact-form textarea {
+        border: none;
+        background-color: rgb(245,245,245);
+    }
+    
+/* -- work -- */
+    .work-intro {
+        position: relative;
+        margin-bottom: 40px;
+    }
+    
+    .work-intro h1 {
+        text-align: left;
+        padding: 30px 10px;
+    }
+    
+    .work-sec h3{
+        margin: 40px 0px 20px 0px;
+        grid-area: heading;
+    }
+    
+    .work-sec{
+        display: grid;
+        grid-column-gap: 3px;
+    }
+    
+    .work-gd {
+        grid-template-areas: 
+            "heading heading heading";
+    }
+    
+    .work-mg {
+        grid-template-areas: 
+            "heading heading";
+    }
+
+    .work-il {
+        grid-template-areas: 
+            "heading heading";
+    }
+    
+    .work-wa {
+        grid-template-areas: 
+            "heading";
+    }
+    
+    
+/* -- work categories --- */
+    .work-menu {
+        margin-top: 70px;
+        margin-bottom: 60px;
+    }
+
+    .gd-intro, .mg-intro, .il-intro, .wa-intro {
+        position: relative;
+    }
+    
+    .gd-intro h1, .mg-intro h1, .il-intro h1, .wa-intro h1{
+        text-align: left;
+        padding: 30px 10px;
+    }
+    
+    .work-piece p {
+        max-width: 400px;
+    }
+    
+/*-- video --*/
+    
+    .vid {
+        text-align: center; 
+        margin-bottom: 80px;
+}
+    
+    .vid iframe {
+        max-width: 500px;
+        height: 281.25px;
+    }
+    
+}
+
+
+
+/*--- Desktop ------*/
+@media screen and (min-width: 768px){
+    
+    p {
+        font-size: 1.1em;
+        line-height: 1.5em;
+    }
+
+    h1 {
+        font-size: 6em;
+        text-align: center;
+        margin: 0px;
+        font-weight: 300;
+    }
+    
+    .wrapper {
+        padding: 20px 20px;
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    .button {
+        font-size: 1.4em;
+        font-weight: 400;
+        border: 3px solid #FFBF4F;
+        padding: 6px 25px;
+    }
+
+    footer {
+        padding: 30px 0px;
+    }
+
+    footer h3 {
+        font-size: 3em;
+        margin-bottom: 5px;
+        font-weight: 300;
+    }
+
+    footer img {
+        width: 30px;
+        margin:0px;
+        margin-top: 10px;
+        margin-right: 5px;
+    }
+
+    .footer-menu {
+        margin: 20px 0px;
+    }
+
+    .footer-menu button{
+        font-size: 1em;
+        margin: 5px 0px;
+    }
+    
+    .yellow-box {
+        border: 7px solid #ffbf4f;
+    }
+
+    .page-menu button:hover {
+        animation: yellowbox-in 0.5s forwards;
+    }
+/*--home--*/
+    
+    .page-menu {
+        margin-top: 0px;
+        font-size: 0.8em;
+    }
+    
+    .page-menu button {
+        margin: 13px 15px;
+    }
+    
+    .kathleen-photo {
+        grid-area: kath;
+        width: 90%;
+        margin: 0px;
+    }
+    
+    .intro-text {
+        grid-area: introtext;
+        max-width: 500px;
+        margin-left: 30px;
+    }
+    
+    .intro-text h2{
+        font-weight: 300;
+    }
+    
+    .home-intro {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+            "introtext introtext kath";
+    }
+    
+    .home-work-title h1 {
+        text-align: left;
+        font-size: 7em;
+    }
+    
+    .home-work-cat {
+         padding: 50px 20px;
+    }
+    
+    .home-see-all-button {
+        grid-area: homeseeall;
+    }
+    
+    .home-work-wrap {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+            "worktitle worktitle homeworkcat"
+            "homeseeall . homeworkcat"
+    }
+    
+    .home-see-all-button {
+        transform: translate(30px, -60px);
+    }
+    
+    /*--about--*/
+    .about-intro {
+        margin-bottom: 100px;
+    }
+
+    
+    .about-intro img {
+        grid-area: aboutmephoto;
+    }
+    
+    .about-intro-wrap {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: "aboutmephoto aboutme aboutme";
+    }
+
+    .about-intro img {
+        width: 90%;
+        margin: 40px 0px 0px 25px;
+        z-index: -3;
+    }
+
+    .about-me {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+/*--- contact ---*/
+
+    .contact-intro-wrap {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+            "contacttitle contacttitle contacttitle"
+            ". . contactintrotext"; 
+    }
+    
+    .contact-form {
+        max-width: 600px;
+    }
+
+    .contact-form h3 {
+        font-size: 3em;
+        font-weight: 300;
+    }
+
+    .contact-form label  {
+        font-size: 1.3em;
+        font-weight: 300;
+    }
+
+    .contact-form option {
+        font-size: 1em;
+    }
+    
+    /* --- work categories ---- */
+    .work-menu h2 {
+        text-align: left;
+        margin-left:  30px;
+    }
+    
+    .work-piece {
+        display: grid;
+        grid-template-columns: 350px 1fr;
+    }
+    
+    .gd .work-piece, .il .work-piece {
+        grid-template-areas: 
+            ". img"
+            "name img"
+            "des img";
+    }
+    
+    .mg .work-piece, .wa .work-piece {
+        grid-template-areas: 
+            ". img"
+            "name img"
+            "des img"
+            "link img";
+    }
+
+    .work-piece {
+        text-align: left;
+    }
+    
+    .work-img {
+        grid-area: img;
+        text-align: center;
+    }
+    
+    .work-piece img {
+        max-width: 300px;
+        max-height:500px;
+    }
+
+    .work-piece h3 {
+        font-size: 1.4em;
+        margin: 20px;
+        
+        grid-area: name;
+    }
+
+    .work-piece p {
+        margin-top: 10px;
+        text-align: left;
+        width: 90%;
+        margin: 0 auto;
+        
+        grid-area: des;
+    }
+
+    .work-piece a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.2em;
+        display: block;
+        margin-top: 20px;
+        
+        grid-area: link;
+    }
+    
+    .mg img {
+        max-width: 500px;
+    }
+    
+    .il img:first-child{
+        max-width: 400px;
+    }
+    
+    .work-piece a {
+        margin-left: 20px;
+    }
+    
+/*    video    */
+    
+    .vid iframe {
+        max-width: 600px;
+        height: 337.5px;
+    }
+    
+}
+

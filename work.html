@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <meta http-equiv="X-UA-Compatible" content = "ie=edge">
+        <title> Kathleen Portfolio | Work </title>
+        <link href="css/main.css" rel="stylesheet"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    
+    <body>
+    <div class="wrapper">
+        <header>
+            <div class="name">
+                <button>KathleenHung</button>
+            </div>
+            <div class="page-menu">
+                <button onclick="toHome()">Home</button>
+                <button style="color:#FFBF4F">Work</button>
+                <button onclick="toContact()">Contact</button>
+                <button onclick="toAbout()">About</button>
+            </div>
+        </header>
+        
+        <section class="work-intro">
+            <div class="yellow-box box-right"></div>
+            <h1>Work</h1> 
+        </section>
+        
+        <section class="work-sec work-gd">
+            <h3 class="work-work-cat " onclick="toGD()">Graphic Design <span>></span></h3>
+            <div class="work-thumb" id="fab-thumb"><a href="graphicdesign.html"></a></div>
+            <div class="work-thumb" id="bank-thumb"><a href="graphicdesign.html"></a></div>
+            <div class="work-thumb" id="bloohoo-thumb"><a href="graphicdesign.html"></a></div>
+        </section>
+        
+        <section class="work-sec work-mg">
+            <h3 class="work-work-cat" onclick="toMG()">Motion Graphic <span>></span></h3>
+            <div class="work-thumb" id="cat-thumb"><a href="motiongraphic.html"></a></div>
+            <div class="work-thumb" id="loli-thumb"><a href="motiongraphic.html"></a></div>
+        </section>
+        
+        <section class="work-sec work-il">
+            <h3 class="work-work-cat" onclick="toIL()">Illustration <span>></span></h3>
+            <div class="work-thumb" id="kevin-thumb"><a href="illustration.html"></a></div>
+            <div class="work-thumb" id="mermaid-thumb"><a href="illustration.html"></a></div>
+        </section>
+        
+        <section class="work-sec work-wa">
+            <h3 class="work-work-cat" onclick="toWA()">Web App <span>></span></h3>
+            <div class="work-thumb" id="seaamigos-thumb"><a href="webapp.html"></a></div>
+        </section>
+        
+        
+    </div>  
+        <footer>
+            <h3>Get in touch</h3>
+            <div class="footer-contact">
+                <p>kathleen@gmail.com</p>
+                <div>
+                    <img onclick="toLinkedIn()" src="img/linkedin-icon.svg" alt="linkedin icon"/>
+                    <img onclick="toIns()" src="img/instagram-icon.svg" alt="instagram icon"/>
+                </div>
+                <div class="footer-menu">
+                    <button onclick="toHome()">Home</button>
+                    <button onclick="toWork()">Work</button>
+                    <button onclick="toContact()">Contact</button>
+                    <button onclick="toAbout()">About</button>
+                </div>
+            </div>
+        </footer>
+        
+<script src="js/myjs.js"></script>
+    </body>
+</html>
